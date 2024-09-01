@@ -1,0 +1,53 @@
+/* fonts */
+
+@font-face {
+    font-family: 'open_sansextrabold', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    src: local('Lexend Deca Regular'), url('/fonts/LexendDecaRegular.woff') format('woff');
+}
+  
+  
+/* components */
+
+.headerBox {
+    font-family: 'open_sansextrabold';
+    background-color: #3CB371;
+}
+
+.headerTitle {
+    text-align: center;
+    align-content: center;
+    color: #fff;
+    font-size: 2.1rem;
+    margin: 0 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra do texto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra do contêiner */
+    padding: 10px; /* Adiciona um pouco de espaço interno para melhorar a aparência */
+}
+
+.headerDiv {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    height: 20vh;
+}
+
+.logoLabFilm {
+    width: auto;
+    margin: 25px;
+}
+
+.logoCreditacao {
+    width: auto;
+    margin: 25px;
+    border: 4px solid #2E8B57;
+    border-radius: 10px;
+}
+
+.posHeader {
+    height: 2vh;
+    background-color: #2E8B57;
+}
+
