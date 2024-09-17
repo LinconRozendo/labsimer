@@ -1,0 +1,52 @@
+/* fonts */
+
+@font-face {
+    font-family: 'open_sansextrabold', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    src: local('Lexend Deca Regular'), url('/fonts/LexendDecaRegular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  src: url(https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+  
+  
+/* components */
+
+
+.carouselContainer {
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.carouselTitle {
+    font-size: 1.5rem;
+    color: teal;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+.clientItem {
+    padding: 10px;
+    text-align: center;
+}
+
+.clientLogo {
+    max-width: 100%;
+    height: auto;
+    max-height: 100px;
+    border-radius: 8px;
+}
+
+.carouselSlider {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 35px;
+}
