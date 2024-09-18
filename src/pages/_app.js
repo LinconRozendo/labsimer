@@ -6,7 +6,7 @@ import {DivBoxHomeAboutUs, DivBoxHomeNews} from '@/components/DivBox/DivBox.jsx'
 import {CarouselClients} from '@/components/Carousel/Carousel.jsx';
 import {FooterBox} from '@/components/FooterBox/FooterBox.jsx';
 
-export default function App({ Component, pageProps }) {
+export default function App({ Component, pageProps, router}) {
 
   const newsData = [
     {
@@ -86,13 +86,17 @@ export default function App({ Component, pageProps }) {
     },
   ];
 
+  const isHomePage = router.pathname === "/"; // Verifica se a rota atual é a página de início
+
   return (
     <div>
       <HeaderBox />
       <NavBar />
-      <DivBoxHomeAboutUs />
-      <DivBoxHomeNews news={newsData} />
-      <CarouselClients clients={clientsData} />
+      {isHomePage && (
+            [<DivBoxHomeAboutUs />,
+            <DivBoxHomeNews news={newsData} />,
+            <CarouselClients clients={clientsData} />]
+        )}
       <Component {...pageProps} />;
       <FooterBox />
     </div>

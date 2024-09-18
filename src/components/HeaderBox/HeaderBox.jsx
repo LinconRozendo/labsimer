@@ -38,8 +38,6 @@ export default function HeaderBox() {
           />
 
         </div>
-        
-        <div className={styles.posHeader} />
       
     </header>
     

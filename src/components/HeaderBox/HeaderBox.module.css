@@ -21,7 +21,7 @@
 
 .headerBox {
     font-family: 'Roboto';
-    background-color: #3CB371;
+    background: linear-gradient(to bottom, #004225, #001f1f);;
 }
 
 .headerTitle {
@@ -53,10 +53,5 @@
     margin: 25px;
     border: 4px solid #2E8B57;
     border-radius: 10px;
-}
-
-.posHeader {
-    height: 2vh;
-    background-color: #2E8B57;
 }
 
