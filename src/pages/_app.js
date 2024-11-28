@@ -69,20 +69,12 @@ export default function App({ Component, pageProps, router}) {
         logo: 'ufpb_logo.png',
     },
     {
-        name: 'Cliente 3',
-        logo: 'logolabfilm.png',
-    },
-    {
         name: 'Cliente 4',
         logo: '/cear_logo.png',
     },
     {
         name: 'Cliente 5',
         logo: 'ufpb_logo.png',
-    },
-    {
-        name: 'Cliente 6',
-        logo: 'logolabfilm.png',
     },
   ];
 
@@ -94,7 +86,6 @@ export default function App({ Component, pageProps, router}) {
       <NavBar />
       {isHomePage && (
             [<DivBoxHomeAboutUs />,
-            <DivBoxHomeNews news={newsData} />,
             <CarouselClients clients={clientsData} />]
         )}
       <Component {...pageProps} />;

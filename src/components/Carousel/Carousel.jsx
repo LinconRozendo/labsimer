@@ -40,7 +40,7 @@ export function CarouselClients({ clients }) {
 
     return (
         <div className={styles.carouselContainer}>
-            <h2 className={styles.carouselTitle}>Parceiros do LabFilm</h2>
+            <h2 className={styles.carouselTitle}>Parceiros do LabTAY</h2>
             <Slider {...settings} className={styles.carouselSlider} >
                 {clients.map((client, index) => (
                     <div key={index} className={styles.clientItem}>

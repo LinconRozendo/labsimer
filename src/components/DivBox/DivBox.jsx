@@ -9,17 +9,17 @@ export function DivBoxHomeAboutUs() {
             <div className={styles.divStructure} >
                 <div className={styles.divText} >
                     <h1 className={styles.textTitleP1}>
-                        CONHEÇA O LABFILM
+                        CONHEÇA O LABTAY
                     </h1>
                     <h1 className={styles.textTitleP2}> 
-                        Construindo Futuros Sustentáveis, Camada por Camada 
+                        Construindo Futuros Sustentáveis 
                     </h1>
                     <h1 className={styles.textDescribe} >
-                        Criado para disponibilizar suporte multiusuário para a comunidade científica do Centro de
-                        Energias Alternativas e Renováveis, da Universidade Federal da Paraíba e Instituições públicas e
-                        privadas de cunho educacional, empresarial e industrial voltados para o desenvolvimento científico e 
-                        tecnológico regional, disponibiliza infraestrutura laboratorial de ponta para projetos de pesquisa, desenvolvimento
-                        e inovação nos setores de energia e caracterização de materiais.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                     labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                      nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+                       in culpa qui officia deserunt mollit anim id est laborum.
                     </h1>
 
                     <Link className={styles.linkButton} href="/sobre-nos"> O Laboratório em Detalhes 
@@ -35,14 +35,14 @@ export function DivBoxHomeAboutUs() {
                     <div className={styles.images}>
                         <img
                             className={styles.imageLabFilm}
-                            src="/labfilm_img1.png"
+                            src="/img1.jpeg"
                         />
                     </div>
 
                     <div className={styles.images}>
                         <img
                             className={styles.imageLabFilm}
-                            src="/labfilm_img2.png"
+                            src="/img1.jpeg"
                         />
                     </div>
                 </div>

@@ -24,8 +24,8 @@
     padding: 0.3rem;
     font-weight: bold;
     font-size: 1.5rem;
-    border-top: 3px solid seagreen;
-    border-bottom: 3px solid darkgreen;
+    border-top: 3px solid rosybrown;
+    border-bottom: 3px solid saddlebrown;
     background-color: whitesmoke;
     margin: 0 auto;
 }
@@ -82,12 +82,12 @@
 }
   
 .dropdown li a:hover {
-  background-color: mediumseagreen;
+  background-color: brown;
   color: white;
 }
 
 .linkItem:hover {
-  background-color: seagreen;
+  background-color: brown;
   color: white;
   font-weight: bold;
 }
@@ -118,7 +118,7 @@
 
 .searchBarOpen {
   width: 1000px; /* Ajuste o tamanho conforme necessário */
-  border: 3px solid teal;
+  border: 3px solid sandybrown;
   transition: width 0.5s ease;
 }
 

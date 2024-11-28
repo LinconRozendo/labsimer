@@ -29,7 +29,7 @@ const NavBar = () => {
           onMouseEnter={() => handleMouseEnter('Produtos')}
           onMouseLeave={() => handleMouseLeave('Produtos')}
         >
-          <Link className={styles.linkItem} href="/produtos">Produtos</Link>
+          <Link className={styles.linkItem} href="/Linhas de Pesquisa">Linhas de Pesquisa</Link>
           <ul className={`${styles.dropdown} ${dropdownOpen.Produtos ? styles.open : ''}`}>
             <li><Link href="/produtos/ensino">Ensino</Link></li>
             <li><Link href="/produtos/pesquisa">Pesquisa</Link></li>
@@ -40,15 +40,14 @@ const NavBar = () => {
           onMouseEnter={() => handleMouseEnter('Serviços')}
           onMouseLeave={() => handleMouseLeave('Serviços')}
         >
-          <Link className={styles.linkItem} href="/servicos">Serviços</Link>
+          <Link className={styles.linkItem} href="/Projetos">Projetos</Link>
           <ul className={`${styles.dropdown} ${dropdownOpen.Serviços ? styles.open : ''}`}>
             <li><Link href="/produtos/ensino">Serviços 1</Link></li>
           </ul>
         </li>
-        <li><Link className={styles.linkItem} href="/sobre-nos">Sobre Nós</Link></li>
         <li><Link className={styles.linkItem} href="/infraestrutura">Infraestrutura</Link></li>
-        <li><Link className={styles.linkItem} href="/equipe-tecnica">Equipe Técnica</Link></li>
-        <li><Link className={styles.linkItem} href="/area-do-cliente">Área do Cliente</Link></li>
+        <li><Link className={styles.linkItem} href="/equipe-tecnica">Publicações</Link></li>
+        <li><Link className={styles.linkItem} href="/sobre-nos">Sobre Nós</Link></li>
         <li className={styles.searchContainer}>
           <button onClick={toggleSearch} className={styles.searchIcon}>
             <img
