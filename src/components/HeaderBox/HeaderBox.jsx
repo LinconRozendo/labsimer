@@ -21,7 +21,7 @@ export default function HeaderBox() {
           
 
           <h1 className={styles.headerTitle}>
-            LabFilm <br></br> Laboratório de Síntese e Caracterização de Filmes Finos <br/>
+            LabTAY <br></br> Laboratório da Professora Taynara <br/>
             Centro de Energias Alternativas e Renováveis - CEAR
           </h1>
 

@@ -21,7 +21,7 @@
 
 .headerBox {
     font-family: 'Roboto';
-    background: linear-gradient(to bottom, #4d2c1b, #8b5e34);
+    background: linear-gradient(to bottom, #4d2c1b, #6f4e37);
 }
 
 .headerTitle {
@@ -41,6 +41,7 @@
     overflow: hidden;
     display: flex;
     height: 20vh;
+    justify-content: center;
 }
 
 .logoLabFilm {
