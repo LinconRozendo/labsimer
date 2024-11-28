@@ -7,7 +7,7 @@ export default function HeaderBox() {
       
         <div className={styles.headerDiv}>
 
-          <img
+          {/*<img
             className={styles.logoLabFilm}
             src="/logolabfilm.png"
             
@@ -17,7 +17,7 @@ export default function HeaderBox() {
                 //width: user.imageSize,
                 //height: user.imageSize
             }}
-          />
+          />*/}
           
 
           <h1 className={styles.headerTitle}>
@@ -25,7 +25,7 @@ export default function HeaderBox() {
             Centro de Energias Alternativas e Renováveis - CEAR
           </h1>
 
-          <img
+          {/*<img
             className={styles.logoCreditacao}
             src="/logocreditacao.jpeg"
             
@@ -35,7 +35,7 @@ export default function HeaderBox() {
                 //width: user.imageSize,
                 //height: user.imageSize
             }}
-          />
+          />*/}
 
         </div>
       
