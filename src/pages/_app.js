@@ -85,8 +85,7 @@ export default function App({ Component, pageProps, router}) {
       <HeaderBox />
       <NavBar />
       {isHomePage && (
-            [<DivBoxHomeAboutUs />,
-            <CarouselClients clients={clientsData} />]
+            <DivBoxHomeAboutUs />
         )}
       <Component {...pageProps} />;
       <FooterBox />

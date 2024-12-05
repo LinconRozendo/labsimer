@@ -39,19 +39,47 @@
   }
 
 .textTitleP1 {
-    color: saddlebrown;
+    color: cornflowerblue;
     margin: 60px 0 0 50px;
     font-size: 1.5rem;
 }
 
 .textTitleP2 {
-    color: brown;
+    color: royalblue;
     margin: 10px 0 0 50px;
     font-size: 3rem;
     line-height: 110%;
     font-weight: 700;
     font-family: system-ui;
 }
+
+
+.textTitleP2Missao {
+    color: royalblue;
+    margin: 10px 0 0 50px;
+    font-size: 3rem;
+    line-height: 110%;
+    font-weight: 700;
+    font-family: system-ui;
+    position: relative;
+    text-align: center; /* Centraliza o texto do título */
+    padding-bottom: 10px; /* Espaçamento entre o texto e a linha */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+    margin-top: 100px;
+}
+
+
+.textTitleP2Missao::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 3px; /* Espessura da linha */
+    background-color: cornflowerblue; /* Cor da linha */
+    margin-top: 5px; /* Espaçamento entre o texto e a linha */
+}
+
 
 .textDescribe {
     margin: 50px 0 0 50px;
@@ -87,14 +115,28 @@
 }
 
 .images {
-    margin: 60px 0 0 100px;
+    margin: 250px 0 0 25px;
 }
 
-.imageLabFilm {
-    border: 1px solid green;
-    border-radius: 50px;
-    height: 250px;
+.imageLabSimer {
+    border: 1px solid lightblue;
+    border-radius: 30px;
+    height: auto;
+    width: 550px;
 }
+
+
+.divImagesVisao {
+    margin: 100px 0 0 100px;
+}
+
+.imageVisao {
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    height: auto;
+    width: 500px;
+}
+
 
 
 /* DivHomeAboutUs - Fim */

@@ -118,7 +118,7 @@
 
 .searchBarOpen {
   width: 1000px; /* Ajuste o tamanho conforme necessário */
-  border: 3px solid sandybrown;
+  border: 3px solid lightsteelblue;
   transition: width 0.5s ease;
 }
 

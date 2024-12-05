@@ -26,26 +26,16 @@ const NavBar = () => {
     <nav className={styles.navBar}>
       <ul className={styles.navList}>
         <li
-          onMouseEnter={() => handleMouseEnter('Produtos')}
-          onMouseLeave={() => handleMouseLeave('Produtos')}
-        >
-          <Link className={styles.linkItem} href="/Linhas de Pesquisa">Linhas de Pesquisa</Link>
-          <ul className={`${styles.dropdown} ${dropdownOpen.Produtos ? styles.open : ''}`}>
-            <li><Link href="/produtos/ensino">Ensino</Link></li>
-            <li><Link href="/produtos/pesquisa">Pesquisa</Link></li>
-            <li><Link href="/produtos/extensao">Extensão</Link></li>
-          </ul>
-        </li>
-        <li
           onMouseEnter={() => handleMouseEnter('Serviços')}
           onMouseLeave={() => handleMouseLeave('Serviços')}
         >
-          <Link className={styles.linkItem} href="/Projetos">Projetos</Link>
+          <Link className={styles.linkItem} href="/projetos">Projetos</Link>
           <ul className={`${styles.dropdown} ${dropdownOpen.Serviços ? styles.open : ''}`}>
-            <li><Link href="/produtos/ensino">Pesquisa</Link></li>
-            <li><Link href="/produtos/ensino">Extensão</Link></li>
+            <li><Link href="/projetos/ensino">Pesquisa</Link></li>
+            <li><Link href="/projetos/ensino">Extensão</Link></li>
           </ul>
         </li>
+        <li><Link className={styles.linkItem} href="/Linhas de Pesquisa">Linhas de Pesquisa</Link></li>
         <li><Link className={styles.linkItem} href="/software">Software</Link></li>
         <li><Link className={styles.linkItem} href="/infraestrutura">Infraestrutura</Link></li>
         <li><Link className={styles.linkItem} href="/equipe-tecnica">Publicações</Link></li>

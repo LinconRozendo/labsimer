@@ -24,7 +24,7 @@ export function FooterBox() {
             </div>
 
             <div style={{ textAlign: 'center', marginTop: '1rem', padding: '0 1rem' }}>
-                <p style={{ margin: 0, fontFamily: 'Roboto' }}>© 2024 LabTAY - CEAR. Todos os direitos reservados.</p>
+                <p style={{ margin: 0, fontFamily: 'Roboto' }}>© 2024 LABSIMER - CEAR. Todos os direitos reservados.</p>
             </div>
         </footer>
     );

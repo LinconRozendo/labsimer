@@ -21,7 +21,7 @@ export default function HeaderBox() {
           
 
           <h1 className={styles.headerTitle}>
-            LabSIMER <br></br> Laboratório de Simulação de Multifísica em Energia <br/>
+            LABSIMER <br></br> Laboratório de Simulação de Multifísica em Energia <br/>
             Centro de Energias Alternativas e Renováveis - CEAR
           </h1>
 
