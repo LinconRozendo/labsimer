@@ -24,8 +24,8 @@
     padding: 0.3rem;
     font-weight: bold;
     font-size: 1.5rem;
-    border-top: 3px solid rosybrown;
-    border-bottom: 3px solid saddlebrown;
+    border-top: 3px solid lightskyblue;
+    border-bottom: 3px solid dodgerblue;
     background-color: whitesmoke;
     margin: 0 auto;
 }
@@ -44,7 +44,7 @@
 }
   
 .navList li a {
-    color: black;
+    color: royalblue;
     text-decoration: none;
     padding: 0.5rem 1rem;
     display: block;
@@ -82,13 +82,13 @@
 }
   
 .dropdown li a:hover {
-  background-color: brown;
-  color: white;
+  background-color: lightblue;
+  color: mediumblue;
 }
 
 .linkItem:hover {
-  background-color: brown;
-  color: white;
+  background-color: lightsteelblue;
+  color: mediumblue;
   font-weight: bold;
 }
 

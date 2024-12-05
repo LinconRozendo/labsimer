@@ -6,10 +6,10 @@ export default function HeaderBox() {
     <header className={styles.headerBox}>
       
         <div className={styles.headerDiv}>
-
-          {/*<img
+          
+          <img
             className={styles.logoLabFilm}
-            src="/logolabfilm.png"
+            src="/logo_labsimer.jpg"
             
             alt={'Photo initial'}
             style={{
@@ -17,17 +17,17 @@ export default function HeaderBox() {
                 //width: user.imageSize,
                 //height: user.imageSize
             }}
-          />*/}
+          />
           
 
           <h1 className={styles.headerTitle}>
-            LabTAY <br></br> Laboratório da Professora Taynara <br/>
+            LabSIMER <br></br> Laboratório de Simulação de Multifísica em Energia <br/>
             Centro de Energias Alternativas e Renováveis - CEAR
           </h1>
 
-          {/*<img
+          <img
             className={styles.logoCreditacao}
-            src="/logocreditacao.jpeg"
+            src="/cear_logo.png"
             
             alt={'Photo initial'}
             style={{
@@ -35,7 +35,7 @@ export default function HeaderBox() {
                 //width: user.imageSize,
                 //height: user.imageSize
             }}
-          />*/}
+          />
 
         </div>
       

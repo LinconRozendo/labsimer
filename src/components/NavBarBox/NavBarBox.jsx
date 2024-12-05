@@ -42,12 +42,14 @@ const NavBar = () => {
         >
           <Link className={styles.linkItem} href="/Projetos">Projetos</Link>
           <ul className={`${styles.dropdown} ${dropdownOpen.Serviços ? styles.open : ''}`}>
-            <li><Link href="/produtos/ensino">Serviços 1</Link></li>
+            <li><Link href="/produtos/ensino">Pesquisa</Link></li>
+            <li><Link href="/produtos/ensino">Extensão</Link></li>
           </ul>
         </li>
+        <li><Link className={styles.linkItem} href="/software">Software</Link></li>
         <li><Link className={styles.linkItem} href="/infraestrutura">Infraestrutura</Link></li>
         <li><Link className={styles.linkItem} href="/equipe-tecnica">Publicações</Link></li>
-        <li><Link className={styles.linkItem} href="/sobre-nos">Sobre Nós</Link></li>
+        <li><Link className={styles.linkItem} href="/sobre-nos">Equipe</Link></li>
         <li className={styles.searchContainer}>
           <button onClick={toggleSearch} className={styles.searchIcon}>
             <img
