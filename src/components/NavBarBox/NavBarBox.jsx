@@ -35,11 +35,14 @@ const NavBar = () => {
             <li><Link href="/projetos/ensino">Extensão</Link></li>
           </ul>
         </li>
-        <li><Link className={styles.linkItem} href="/Linhas de Pesquisa">Linhas de Pesquisa</Link></li>
-        <li><Link className={styles.linkItem} href="/software">Software</Link></li>
+        <li><Link className={styles.linkItem} href="/linhas-pesquisa">Linhas de Pesquisa</Link></li>
+        <li><Link className={styles.linkItem} href="/equipe">Equipe</Link></li>
         <li><Link className={styles.linkItem} href="/infraestrutura">Infraestrutura</Link></li>
-        <li><Link className={styles.linkItem} href="/equipe-tecnica">Publicações</Link></li>
-        <li><Link className={styles.linkItem} href="/sobre-nos">Equipe</Link></li>
+        <li><Link className={styles.linkItem} href="/softwares">Softwares</Link></li>
+        <li><Link className={styles.linkItem} href="/publicacoes">Publicações</Link></li>
+        <li><Link className={styles.linkItem} href="/contato">Contato</Link></li>
+        
+        
         <li className={styles.searchContainer}>
           <button onClick={toggleSearch} className={styles.searchIcon}>
             <img
