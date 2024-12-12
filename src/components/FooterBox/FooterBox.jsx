@@ -36,7 +36,7 @@ export function FooterBox() {
                     <p style={{ margin: 0, fontFamily: 'Roboto' }}>© 2024 LABSIMER - CEAR. Todos os direitos reservados.</p>
                 </div>
                 <div style={{ textAlign: 'right', fontFamily: 'Roboto' }}>
-                    <p style={{ margin: 0 }}>Telefone: (83) 1234-5678</p>
+                    <p style={{ margin: 0 }}>Telefone: (83) 3216-7127</p>
                     <p style={{ margin: 0 }}>Ramal: 123</p>
                     <p style={{ margin: 0 }}>E-mail: contato@labsimer.com</p>
                 </div>
