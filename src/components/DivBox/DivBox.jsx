@@ -30,11 +30,7 @@ export function DivBoxHomeAboutUs() {
                       métodos numéricos, fluidos, calor e magneto hidrodinâmica, permitindo uma abordagem interdisciplinar e integrada para 
                       a resolução de problemas multifísicos.
 
-                    <br /><br />
-                    Contribuir para ampliação do conhecimento científico e técnico dos recursos e das 
-                    tecnologias associadas à produção/geração, transporte, armazenamento e uso otimizados de energia,
-                     em especial àquelas relacionadas às fontes renováveis e alternativas, do setor acadêmico
-                      (graduação e pós-graduação), indústrias e empresas em geral.
+                    
                     </h1>
 
                     {/*<Link className={styles.linkButton} href="/sobre-nos"> O Laboratório em Detalhes 
