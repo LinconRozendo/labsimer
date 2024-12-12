@@ -23,7 +23,7 @@
     height: 60px;
     padding: 0.3rem;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     border-top: 3px solid lightskyblue;
     border-bottom: 3px solid dodgerblue;
     background-color: whitesmoke;
@@ -38,7 +38,7 @@
     margin: 0 auto;
     justify-content: center;
 }
-  
+
 .navList li {
     position: relative;
 }
@@ -48,7 +48,7 @@
     text-decoration: none;
     padding: 0.5rem 1rem;
     display: block;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
     border: 1px solid lightgray;
     border-radius: 10px;
     margin: 0 10px;
@@ -64,8 +64,8 @@
     list-style: none;
     padding: 0;
     margin: 0;
-    width: 150px;
-    z-index: 1000; /* Adicione um z-index para garantir que o dropdown esteja acima de outros elementos */
+    min-width: 200px;
+    z-index: 1; /* Adicione um z-index para garantir que o dropdown esteja acima de outros elementos */
 }
   
 .dropdown.open {
@@ -77,8 +77,8 @@
   width: 100%;
   margin: 0;
   border: 0;
-  box-shadow: none;
   border-radius: 10px;
+  white-space: nowrap;
 }
   
 .dropdown li a:hover {
@@ -139,8 +139,8 @@
   background-color: white;
   border: 1px solid #ccc;
   font-size: 1.2rem;
-  width: 130px;
-  text-align: center;
+  min-width: 100px;
+  text-align: left;
   border-radius: 10px;
   margin: 0 10px;
 }
@@ -182,4 +182,15 @@
   background: red; /* Cor de fundo ao passar o mouse */
   color: white; /* Cor do texto ao passar o mouse */
   border-color: red; /* Cor da borda ao passar o mouse */
+}
+
+.navSubMenu a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 5px 10px;
+}
+
+.navSubMenu a:hover {
+  background-color: #f0f0f0;
 }
