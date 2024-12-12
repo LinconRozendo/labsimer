@@ -45,11 +45,11 @@ const NavBar = () => {
         >
           <Link className={styles.linkItem} href="/linhas-pesquisa">Linhas de Pesquisa</Link>
           <ul className={`${styles.dropdown} ${dropdownOpen.LinhasPesquisa ? styles.open : ''}`}>
-            <li className={styles.navSubMenu}><Link href="/LinhasPesquisa/ensino">Adsorção, Meios Porosos e Refrigeração</Link></li>
-            <li className={styles.navSubMenu}><Link href="/LinhasPesquisa/ensino">Dinâmica dos Fluidos Computacional</Link></li>
-            <li className={styles.navSubMenu}><Link href="/LinhasPesquisa/ensino">Mecânica dos Sólidos Computacional</Link></li>
-            <li className={styles.navSubMenu}><Link href="/LinhasPesquisa/ensino">Métodos Híbridos e Numéricos</Link></li>
-            <li className={styles.navSubMenu}><Link href="/LinhasPesquisa/ensino">Métodos Inversos</Link></li>
+            <li className={styles.navSubMenu}><Link href="/linhasPesquisa/adsorcao">Adsorção, Meios Porosos e Refrigeração</Link></li>
+            <li className={styles.navSubMenu}><Link href="/linhasPesquisa/dinamica">Dinâmica dos Fluidos Computacional</Link></li>
+            <li className={styles.navSubMenu}><Link href="/linhasPesquisa/mecanica">Mecânica dos Sólidos Computacional</Link></li>
+            <li className={styles.navSubMenu}><Link href="/linhasPesquisa/hibridos">Métodos Híbridos e Numéricos</Link></li>
+            <li className={styles.navSubMenu}><Link href="/linhasPesquisa/inversos">Métodos Inversos</Link></li>
           </ul>
 
         </li>

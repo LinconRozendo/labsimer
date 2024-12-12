@@ -7,7 +7,7 @@ export default function SobreNos() {
     return (
         <div className={styles.divStructure}>
             <h1 className={styles.textTitle}> 
-                Extensão (em andamento):
+                Extensão (em andamento)
             </h1>
 
             <h1 className={styles.textDescribe} >
