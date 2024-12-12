@@ -20,8 +20,16 @@
 /* components */
 
 .headerBox {
+    background-image: url('/IMG_5166.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o cabeçalho */
+    background-position: top; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    padding: 20px; /* Adiciona espaçamento interno */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: 'Roboto';
-    background: linear-gradient(to left, #007BFF 76.1%, #FFFFFF 23.9%);
+    /*background: #007BFF;*/
 }
 
 .headerTitle {
@@ -30,8 +38,8 @@
     color: #fff;
     font-size: 2rem;
     margin: 0 25px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra do texto */
-    box-shadow: -20px 0 8px rgba(0, 0, 0, 0.2); /* Sombra do contêiner */
+    /*text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  Sombra do texto */
+    /*box-shadow: -20px 0 8px rgba(0, 0, 0, 0.2);  Sombra do contêiner */
     padding: 10px; /* Adiciona um pouco de espaço interno para melhorar a aparência */
 }
 

@@ -22,12 +22,23 @@ export default function HeaderBox() {
 
           <h1 className={styles.headerTitle}>
             LABSIMER <br></br> Laboratório de Simulação de Multifísica em Energia <br/>
-            Centro de Energias Alternativas e Renováveis - CEAR
           </h1>
 
           <img
             className={styles.logoCreditacao}
             src="/cear_logo.png"
+            
+            alt={'Photo initial'}
+            style={{
+                 // alignItems: ''
+                //width: user.imageSize,
+                //height: user.imageSize
+            }}
+          />
+
+          <img
+            className={styles.logoCreditacao}
+            src="/ufpb_logo.png"
             
             alt={'Photo initial'}
             style={{
