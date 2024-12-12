@@ -87,7 +87,7 @@ export default function App({ Component, pageProps, router}) {
       {isHomePage && (
             <DivBoxHomeAboutUs />
         )}
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
       <FooterBox />
     </div>
   )
