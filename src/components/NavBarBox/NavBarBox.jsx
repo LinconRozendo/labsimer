@@ -32,7 +32,7 @@ const NavBar = () => {
         >
           <Link className={styles.linkItem} href="/projetos">Projetos</Link>
           <ul className={`${styles.dropdown} ${dropdownOpen.Projetos ? styles.open : ''}`}>
-            <li className={styles.navSubMenu}><Link href="/projetos/ensino">Pesquisa</Link></li>
+            <li className={styles.navSubMenu}><Link href="/projetos/pesquisa">Pesquisa</Link></li>
             <li className={styles.navSubMenu}><Link href="/projetos/extensao">Extensão</Link></li>
           </ul>
 
