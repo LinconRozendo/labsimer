@@ -60,7 +60,7 @@ const NavBar = () => {
         >
           <Link className={styles.linkItem} href="/equipe">Equipe</Link>
           <ul className={`${styles.dropdown} ${dropdownOpen.Equipe ? styles.open : ''}`}>
-            <li className={styles.navSubMenu}><Link href="/equipe/time-lideranca">Time de Liderança</Link></li>
+            <li className={styles.navSubMenu}><Link href="/equipe/lideranca">Time de Liderança</Link></li>
             <li className={styles.navSubMenu}><Link href="/equipe/colaboradores">Colaboradores/Pesquisadores</Link></li>
             <li className={styles.navSubMenu}><Link href="/equipe/discentes">Pesquisadores Discentes</Link></li>
           </ul>

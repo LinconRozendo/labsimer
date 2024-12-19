@@ -26,7 +26,7 @@ export default function HeaderBox() {
 
           <img
             className={styles.logoCreditacao}
-            src="/cear_logo.png"
+            src="/Logotipo_CEAR.png"
             
             alt={'Photo initial'}
             style={{
@@ -36,7 +36,7 @@ export default function HeaderBox() {
             }}
           />
 
-          <img
+          {/*<img
             className={styles.logoCreditacao}
             src="/ufpb_logo.png"
             
@@ -46,7 +46,7 @@ export default function HeaderBox() {
                 //width: user.imageSize,
                 //height: user.imageSize
             }}
-          />
+          />*/}
 
         </div>
       
