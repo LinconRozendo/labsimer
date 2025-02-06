@@ -51,9 +51,16 @@
 
 .textTitleP1 {
     color: cornflowerblue;
-    margin: 20px 0 0 50px;
+    margin: 3px 0 0 50px;
     font-size: 1.5rem;
 }
+
+.textTitleP1Left {
+    color: cornflowerblue;
+    margin: 3px 0 0 100px;
+    font-size: 1.5rem;
+}
+
 
 .textTitleP2 {
     color: royalblue;
@@ -64,6 +71,8 @@
     font-family: system-ui;
     border-bottom: 10px solid cornflowerblue;
     justify-self: center;
+    white-space: nowrap;
+    overflow: visible;
 }
 
 
@@ -132,9 +141,13 @@
     margin: 25px 0 0 250px;
 }
 
+.imagesRight {
+    margin: 25px 0 0 150px;
+}
+
 .imageLabSimer {
     border: 1px solid lightblue;
     border-radius: 30px;
-    height: auto;
+    height: 200px;
     width: auto;
 }

@@ -26,36 +26,16 @@ export default function Lideranca() {
                     <h1 className={styles.textTitleP2}> 
                         João Alves de Lima
                     </h1>
-                    <h1 className={styles.textTitleP1}>
-                        Fenômenos de Transporte Dinâmica dos Fluidos Computacional Métodos Híbridos e Numéricos
+                    <h1 className={styles.textTitleP1Left}>
+                        Fenômenos de Transporte
+                    </h1>
+                    <h1 className={styles.textTitleP1Left}>
+                        Dinâmica dos Fluidos Computacional
+                    </h1>
+                    <h1 className={styles.textTitleP1Left}>
+                        Métodos Híbridos e Numéricos
                     </h1>
                     
-                    
-                    {/*<h1 className={styles.textDescribe} >
-                    O Laboratório de Simulação de Multifísica em Energia – LABSIMER, vinculado ao Departamento de Engenharia de Energias 
-                    Renovávies – DEER, desenvolve atividades de pesquisa do Grupo de Pesquisa MULTISIM: Modelagem e Simulação Computacional
-                     em Multifísica, também vinculado ao DEER e cadastrado no CNPq desde 2014.
-
-                    <br /><br />
-                    O grupo de pesquisa é dedicado ao estudo e desenvolvimento de simulações computacionais de problemas de multifísica
-                     associados aos processos otimizados de geração, distribuição, armazenamento e uso de energia (engenharia térmica; 
-                     fenômenos de transporte: transferência de calor e mecânica dos fluidos; dinâmica dos sólidos). Localizado no endereço
-                      http://www.dgp.cnpq.br/dgp/espelhogrupo/0433073486283582, o grupo busca inovar e aprimorar técnicas de modelagem e 
-                      simulação para resolver problemas complexos em engenharia e ciências físicas. Com um time de 8 pesquisadores lotados 
-                      no DEER e mais de 30 pessoas envolvidas, o grupo MULTISIM trabalha em colaboração com instituições acadêmicas e 
-                      industriais para desenvolver soluções inovadoras. Os pesquisadores do grupo possuem expertise em áreas como mecânica, 
-                      métodos numéricos, fluidos, calor e magneto hidrodinâmica, permitindo uma abordagem interdisciplinar e integrada para 
-                      a resolução de problemas multifísicos.
-
-                    
-                    </h1>
-
-                    {/*<Link className={styles.linkButton} href="/sobre-nos"> O Laboratório em Detalhes 
-                        <img
-                            className={styles.logoSearchIcon}
-                            src="/science_icon.png"
-                        />
-                    </Link>*/}
 
                 </div>
 
@@ -75,7 +55,154 @@ export default function Lideranca() {
 
                     <br /><br />
                 </h1>
+                
             </div>
+
+            {/* -------------------------------------------------------------------------------------------------------------------- */}
+
+            <div className={styles.divStructure} >
+
+                
+
+
+                <div className={styles.divText} >
+                    <h1 className={styles.textTitleP2}> 
+                        Gilberto Augusto A. Moreira
+                    </h1>
+                    <h1 className={styles.textTitleP1}>
+                        Fenômenos de Transporte 
+                    </h1>
+                    <h1 className={styles.textTitleP1}>
+                        Dinâmica dos Fluidos Computacional
+                    </h1>
+                    
+
+                </div>
+
+                <div className={styles.divImages}>
+                    <div className={styles.imagesRight}>
+                        <img
+                            className={styles.imageLabSimer}
+                            src="/prof_gilberto.png"
+                        />
+                    </div>
+                </div>
+
+                
+            </div>
+
+            <div className={styles.divStructureText} >            
+                <h1 className={styles.textDescribe} >
+                    Possui graduação em Engenharia Mecânica pelo Centro Federal de Educação Tecnológica de Minas Gerais (CEFET-MG), 
+                    mestrado e doutorado em Engenharia Mecânica pela Universidade Federal de Minas Gerais. Atualmente Professor Adjunto 
+                    do Departamento de Engenharia de Energias Renováveis na Universidade Federal da Paraíba (UFPB).  Tem experiência na 
+                    área de Engenharia Mecânica, atuando principalmente nos seguintes temas: Métodos Numéricos, Fornos Industriais, 
+                    Turbulência, Camada Limite Atmosférica, mecânica dos Fluidos Computacional e Técnicas de Medição Não-Invasivas.
+
+                    <br /><br />
+                </h1>
+                
+            </div>
+
+
+            {/* -------------------------------------------------------------------------------------------------------------------- */}
+
+
+
+
+
+            <div className={styles.divStructure} >
+
+                <div className={styles.divImages}>
+                    <div className={styles.images}>
+                        <img
+                            className={styles.imageLabSimer}
+                            src="/prof_taynara.jpg"
+                        />
+                    </div>
+                </div>
+
+
+                <div className={styles.divText} >
+                    <h1 className={styles.textTitleP2}> 
+                        Taynara Geysa Silva do Lago
+                    </h1>
+                    <h1 className={styles.textTitleP1Left}>
+                        Fenômenos de Transporte
+                    </h1>
+                    <h1 className={styles.textTitleP1Left}>
+                        Energias Renováveis
+                    </h1>
+                    
+                </div>
+
+                
+            </div>
+
+            <div className={styles.divStructureText} >            
+                <h1 className={styles.textDescribe} >
+                    Engenheira Mecânica pela Universidade Estadual do Maranhão (2009-2014), possui Mestrado em Engenharia Mecânica
+                     na área de Térmica e Fluidos, pela Universidade Estadual de Campinas (2014-2016) e Doutorado em Engenharia 
+                     Mecânica na Universidade Estadual de Campinas (2016-2020).  
+                     Atualmente é Professora Adjunta do Departamento de Engenharia de Energia Renováveis – DEER, do 
+                     Centro de Energias Alternativas e Renováveis - CEAR, da Universidade Federal da Paraíba – UFPB. Tem experiência
+                      em Engenharia de Confiabilidade e Manutenção Industrial. Desenvolve pesquisa em Engenharia Mecânica, nos seguintes
+                       temas: Transferência de calor, Termodinâmica, Refrigeração, Armazenadores Térmicos, Energia Solar. 
+
+                    <br /><br />
+                </h1>
+                
+            </div>
+
+            {/* -------------------------------------------------------------------------------------------------------------------- */}
+
+            <div className={styles.divStructure} >
+
+                
+
+
+                <div className={styles.divText} >
+                    <h1 className={styles.textTitleP2}> 
+                        Márcio Rodrigo de Araújo Souza
+                    </h1>
+                    <h1 className={styles.textTitleP1}>
+                        Energia Eólica  
+                    </h1>
+                    <h1 className={styles.textTitleP1}>
+                        Dinâmica dos Fluidos Computacional
+                    </h1>
+                    
+
+                </div>
+
+                <div className={styles.divImages}>
+                    <div className={styles.imagesRight}>
+                        <img
+                            className={styles.imageLabSimer}
+                            src="/prof_marcio.png"
+                        />
+                    </div>
+                </div>
+
+                
+            </div>
+
+            <div className={styles.divStructureText} >            
+                <h1 className={styles.textDescribe} >
+                    Possui graduação em Engenharia Mecânica pela Universidade Federal do Rio Grande do Norte (2003), mestrado em 
+                    Engenharia Mecânica pela Universidade Federal do Rio Grande do Norte (2005) e doutorado em Pós-Graduação em 
+                    Engenharia Civil pela Universidade Federal de Pernambuco (2015). Atualmente é professor adjunto I da Universidade
+                    Federal da Paraíba e membro permanente do Programa de Pós-Graduação em Energias Renováveis. Atuando principalmente 
+                    nos seguintes temas: Simulação de Escoamento Bifásico em Reservatórios de Petróleo; Método de Volumes Finitos e 
+                    Simulação Numérica Voltada à Energia Eólica.
+
+                    <br /><br />
+                </h1>
+                
+            </div>
+
+
+            {/* -------------------------------------------------------------------------------------------------------------------- */}
 
             
             
