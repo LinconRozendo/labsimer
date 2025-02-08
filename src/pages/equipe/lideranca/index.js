@@ -7,7 +7,7 @@ export default function Lideranca() {
     return (
         <div className={styles.divInitial}>
             <h1 className={styles.textTitle}> 
-                Time de Liderança
+                <span className={styles.highlight}>Time de Liderança</span>
             </h1>
 
             <div className={styles.divStructure} >
@@ -58,34 +58,42 @@ export default function Lideranca() {
                 
             </div>
 
+            <div className={styles.divStructureButton}>
+                <a className={styles.buttonLattes} href=" http://lattes.cnpq.br/2699729486137957" target="_blank" class="button">
+                    <span>🔗</span>
+                    Acessar Lattes
+                </a>
+            </div>
+
             {/* -------------------------------------------------------------------------------------------------------------------- */}
+
+            
+
 
             <div className={styles.divStructure} >
 
-                
+                <div className={styles.divImages}>
+                    <div className={styles.images}>
+                        <img
+                            className={styles.imageLabSimer}
+                            src="/prof_gilberto.png"
+                        />
+                    </div>
+                </div>
 
 
                 <div className={styles.divText} >
                     <h1 className={styles.textTitleP2}> 
                         Gilberto Augusto A. Moreira
                     </h1>
-                    <h1 className={styles.textTitleP1}>
-                        Fenômenos de Transporte 
+                    <h1 className={styles.textTitleP1Left}>
+                        Fenômenos de Transporte
                     </h1>
-                    <h1 className={styles.textTitleP1}>
+                    <h1 className={styles.textTitleP1Left}>
                         Dinâmica dos Fluidos Computacional
                     </h1>
                     
 
-                </div>
-
-                <div className={styles.divImages}>
-                    <div className={styles.imagesRight}>
-                        <img
-                            className={styles.imageLabSimer}
-                            src="/prof_gilberto.png"
-                        />
-                    </div>
                 </div>
 
                 
@@ -102,6 +110,13 @@ export default function Lideranca() {
                     <br /><br />
                 </h1>
                 
+            </div>
+
+            <div className={styles.divStructureButton}>
+                <a className={styles.buttonLattes} href="http://lattes.cnpq.br/4921331161781258" target="_blank" class="button">
+                    <span>🔗</span>
+                    Acessar Lattes
+                </a>
             </div>
 
 
@@ -154,34 +169,41 @@ export default function Lideranca() {
                 
             </div>
 
+
+            <div className={styles.divStructureButton}>
+                <a className={styles.buttonLattes} href="http://lattes.cnpq.br/8719507576491647" target="_blank" class="button">
+                    <span>🔗</span>
+                    Acessar Lattes
+                </a>
+            </div>
+
             {/* -------------------------------------------------------------------------------------------------------------------- */}
+
 
             <div className={styles.divStructure} >
 
-                
+                <div className={styles.divImages}>
+                    <div className={styles.images}>
+                        <img
+                            className={styles.imageLabSimer}
+                            src="/prof_marcio.png"
+                        />
+                    </div>
+                </div>
 
 
                 <div className={styles.divText} >
                     <h1 className={styles.textTitleP2}> 
                         Márcio Rodrigo de Araújo Souza
                     </h1>
-                    <h1 className={styles.textTitleP1}>
-                        Energia Eólica  
+                    <h1 className={styles.textTitleP1Left}>
+                        Energia Eólica 
                     </h1>
-                    <h1 className={styles.textTitleP1}>
+                    <h1 className={styles.textTitleP1Left}>
                         Dinâmica dos Fluidos Computacional
                     </h1>
                     
 
-                </div>
-
-                <div className={styles.divImages}>
-                    <div className={styles.imagesRight}>
-                        <img
-                            className={styles.imageLabSimer}
-                            src="/prof_marcio.png"
-                        />
-                    </div>
                 </div>
 
                 
@@ -199,6 +221,13 @@ export default function Lideranca() {
                     <br /><br />
                 </h1>
                 
+            </div>
+
+            <div className={styles.divStructureButton}>
+                <a className={styles.buttonLattes} href="http://lattes.cnpq.br/6252231670995980" target="_blank" class="button">
+                    <span>🔗</span>
+                    Acessar Lattes
+                </a>
             </div>
 
 

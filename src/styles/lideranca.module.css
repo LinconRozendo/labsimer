@@ -1,5 +1,4 @@
 /* fonts */
-
 @font-face {
     font-family: 'open_sansextrabold', Arial, Helvetica, sans-serif;
     font-style: normal;
@@ -8,28 +7,45 @@
 }
 
 @font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: normal;
-  src: url(https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    src: url(https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-  
-  
+
 /* components */
+.divInitial {
+    background-color: #f0f8ff; /* Fundo azul claro */
+    padding: 20px;
+    font-family: 'Roboto';
+}
 
 .divStructure {
     max-width: 1200px;
     height: auto;
-    margin: 0 auto;
+    margin: 20px auto;
     display: flex;
+    background-color: white; /* Fundo branco para cada bloco de professor */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Efeito de transição */
+}
+
+.divStructure:hover {
+    transform: translateY(-5px); /* Efeito de levantar ao passar o mouse */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais intensa */
 }
 
 .divStructureText {
     max-width: 1000px;
     height: auto;
-    margin: 0 auto;
-    display: flex;
+    margin: 20px auto;
+    background-color: white; /* Fundo branco para a descrição */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px;
 }
 
 .divText, .divImages {
@@ -37,112 +53,96 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
-  }
+}
 
 .textTitle {
-    color: royalblue;
+    color: #1e3c72; /* Azul escuro */
     margin: 25px 0 0 50px;
     font-size: 3rem;
     line-height: 110%;
     font-weight: 700;
     font-family: system-ui;
-    JUSTIFY-SELF: CENTER;
+    text-align: center;
 }
 
 .textTitleP1 {
-    color: cornflowerblue;
+    color: #2a5298; /* Azul médio */
     margin: 3px 0 0 50px;
     font-size: 1.5rem;
+    font-style: italic;
 }
 
 .textTitleP1Left {
-    color: cornflowerblue;
+    color: #2a5298; /* Azul médio */
     margin: 3px 0 0 100px;
     font-size: 1.5rem;
+    font-style: italic;
+    justify-self: center;
 }
 
-
 .textTitleP2 {
-    color: royalblue;
+    color: #1e3c72; /* Azul escuro */
     margin: 50px 0 0 50px;
     font-size: 3rem;
     line-height: 110%;
     font-weight: 700;
     font-family: system-ui;
-    border-bottom: 10px solid cornflowerblue;
-    justify-self: center;
-    white-space: nowrap;
-    overflow: visible;
+    border-bottom: 5px solid #4a90e2; /* Linha azul abaixo do nome */
+    width: 750px;
+    padding-bottom: 10px;
+    text-align: center;
 }
 
-
-.textTitleP2Missao {
-    color: royalblue;
-    margin: 10px 0 0 50px;
-    font-size: 3rem;
-    line-height: 110%;
-    font-weight: 700;
-    font-family: system-ui;
-    position: relative;
-    text-align: center; /* Centraliza o texto do título */
-    padding-bottom: 10px; /* Espaçamento entre o texto e a linha */
-    margin-bottom: 20px; /* Espaçamento abaixo do título */
-    margin-top: 100px;
+.highlight {
+    background: linear-gradient(90deg, #1e3c72, #2a5298, #4a90e2); /* Gradiente azul */
+    color: white; /* Texto branco */
+    padding: 10px 20px; /* Espaçamento interno */
+    border-radius: 8px; /* Bordas arredondadas */
+    display: inline-block;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
-
-.textTitleP2Missao::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 3px; /* Espessura da linha */
-    background-color: cornflowerblue; /* Cor da linha */
-    margin-top: 5px; /* Espaçamento entre o texto e a linha */
+.divStructureButton {
+    max-width: 1000px;
+    height: auto;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
 }
 
+.buttonLattes {
+    background: linear-gradient(90deg, #1e3c72, #2a5298, #4a90e2); /* Gradiente azul */
+    color: white; /* Texto branco */
+    padding: 10px 20px; /* Espaçamento interno */
+    border-radius: 8px; /* Bordas arredondadas */
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.2s ease; /* Efeito de transição */
+}
+
+.buttonLattes:hover {
+    background: linear-gradient(90deg, #2a5298, #4a90e2, #1e3c72); /* Gradiente ao passar o mouse */
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+}
+
+.buttonLattes:active {
+    transform: scale(0.95); /* Efeito de clique */
+}
 
 .textDescribe {
     margin: 50px 0 0 50px;
     font-size: 1.3rem;
     text-align: justify;
     font-weight: 100;
-}
-
-.linkButton {
-    border: 2px solid brown;
-    margin: 30px 0 0 50px;
-    display: block;
-    text-align: center;
-    width: 300px;
-    border-radius: 10px;
-    height: 50px;
-    align-content: center;
-    text-transform: uppercase;
-    color: saddlebrown;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-}
-
-.linkButton:hover {
-    background-color: brown;
-    color: white;
-}
-
-.logoSearchIcon {
-    margin-left: 10px; /* Espaçamento entre o texto e o ícone */
-    height: 30px;
+    color: #333; /* Cor do texto principal */
 }
 
 .images {
-    margin: 25px 0 0 250px;
-}
-
-.imagesRight {
-    margin: 25px 0 0 150px;
+    margin: 25px 0 0 125px;
 }
 
 .imageLabSimer {

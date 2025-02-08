@@ -7,12 +7,13 @@ export default function SobreNos() {
     return (
         <div className={styles.divStructure}>
             <h1 className={styles.textTitle}> 
-                Métodos Híbridos e Numéricos 
+                Métodos Inversos 
             </h1>
 
             <h1 className={styles.textDescribe} >
-            Estuda a resistência e deformação de materiais sólidos sob diversas condições de carga. Usa métodos numéricos para 
-            simular e prever o comportamento de estruturas e materiais, ajudando no desenvolvimento de produtos mais seguros e duráveis.  
+                Foca na determinação de parâmetros desconhecidos a partir de dados observados. Este método é aplicado em várias
+                 áreas, como diagnóstico médico, geofísica e engenharia, permitindo a reconstrução de modelos a partir de medições
+                  experimentais.  
                 
                 <br /><br />
 
@@ -23,7 +24,7 @@ export default function SobreNos() {
                 <div className={styles.images}>
                     <img
                         className={styles.imageLabSimer}
-                        src="/infraestrutura.jpg"
+                        src="/inversos.png"
                     />
                 </div>
             </div>

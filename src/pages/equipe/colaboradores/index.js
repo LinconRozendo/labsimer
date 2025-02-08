@@ -1,211 +1,93 @@
 import React from 'react';
-import styles from '@/styles/lideranca.module.css';
+import styles from '@/styles/colaboradores.module.css';
 
+export default function Colaboradores() {
+    const colaboradores = [
+        {
+            nome: "Prof. José Maurício A.M. Gurgel",
+            especialidade: "Sistemas Térmicos, Refrigeração e Ar Condicionado, Condicionamento por Adsorção",
+            instituicao: "DEER/CEAR/UFPB"
+        },
+        {
+            nome: "Prof. Zaqueu Ernesto da Silva",
+            especialidade: "Sistemas Térmicos, Radiação Térmica, Métodos Inversos",
+            instituicao: "DEER/CEAR/UFPB"
+        },
+        {
+            nome: "Profa. Cristiane Kelly Ferreira da Silva",
+            especialidade: "Transferência de Calor, Métodos Híbridos",
+            instituicao: "DEER/CEAR/UFPB"
+        },
+        {
+            nome: "Prof. Fabiano Cordeiro Cavalcanti",
+            especialidade: "Transferência de Calor, Análise Estrutural, Dinâmicas dos Sólidos",
+            instituicao: "DEER/CEAR/UFPB"
+        },
+        {
+            nome: "Prof. Raimundo Aprigio M. Júnior",
+            especialidade: "Análise Estrutural, Dinâmicas dos Sólidos",
+            instituicao: "DEER/CEAR/UFPB"
+        },
+        {
+            nome: "Prof. Diego Paes de A. Peña",
+            especialidade: "Fenômenos de Transporte, Dinâmica dos Sólidos",
+            instituicao: "DEM/CT/UFPB"
+        },
+        {
+            nome: "Prof. Paulo Henrique Dias dos Santos",
+            especialidade: "Engenharia de Petróleo, Dinâmica dos Fluidos Computacional",
+            instituicao: "DEM/CT/UFPB"
+        },
+        {
+            nome: "Prof. Jalison Charles dos Santos",
+            especialidade: "Fenômenos de Transporte, Engenharia Térmica",
+            instituicao: "URCA/CE"
+        },
+        {
+            nome: "Prof. Tony Herbert F. de Andrade",
+            especialidade: "Engenharia de Petróleo, Dinâmica dos Fluidos Computacional",
+            instituicao: "UFCG/PB"
+        },
+        {
+            nome: "Prof. Victor Wagner F. de Azevedo",
+            especialidade: "Fenômenos de Transporte",
+            instituicao: "UFERSA/RN"
+        }
+    ];
 
-
-export default function Lideranca() {
     return (
-        <div className={styles.divInitial}>
+        <div className={styles.divStructure}>
             <h1 className={styles.textTitle}> 
-                Time de Liderança
+                Pesquisadores/Colaboradores do LABSIMER
             </h1>
 
-            <div className={styles.divStructure} >
-
-                <div className={styles.divImages}>
-                    <div className={styles.images}>
-                        <img
-                            className={styles.imageLabSimer}
-                            src="/joao_alves.png"
-                        />
-                    </div>
-                </div>
-
-
-                <div className={styles.divText} >
-                    <h1 className={styles.textTitleP2}> 
-                        João Alves de Lima
-                    </h1>
-                    <h1 className={styles.textTitleP1Left}>
-                        Fenômenos de Transporte
-                    </h1>
-                    <h1 className={styles.textTitleP1Left}>
-                        Dinâmica dos Fluidos Computacional
-                    </h1>
-                    <h1 className={styles.textTitleP1Left}>
-                        Métodos Híbridos e Numéricos
-                    </h1>
-                    
-
-                </div>
-
-                
-            </div>
-
-            <div className={styles.divStructureText} >            
-                <h1 className={styles.textDescribe} >
-                    Possui graduação em Engenharia Mecânica pela Universidade Federal da Paraíba (1992), mestrado em Engenharia Mecânica
-                    pela Universidade Federal do Rio de Janeiro (1995) e doutorado em Engenharia Mecânica pela Universidade Federal da 
-                    Paraíba (2000). Professor Titular do Departamento de Engenharia de Energias Renováveis - DEER - do Centro de Energias
-                    Alternativas e Renováveis - CEAR, da Universidade Federal da Paraíba - UFPB. Tem experiência na área de Engenharia 
-                    Mecânica, com ênfase em Dinâmica dos Fluidos Computacional. Sua principal linha de ação está voltada à Simulação 
-                    Computacional da Interação Fluido/Estrutura em Bombas de Cavidades Progressivas, à Simulação Computacional Híbrida
-                    de Escoamentos Submetidos a Campos Magnéticos e à Análise de Escoamentos Turbulentos via Transformação Integral e 
-                    Modelos Diferenciais de Turbulência. 
-
-                    <br /><br />
-                </h1>
-                
-            </div>
-
-            {/* -------------------------------------------------------------------------------------------------------------------- */}
-
-            <div className={styles.divStructure} >
-
-                
-
-
-                <div className={styles.divText} >
-                    <h1 className={styles.textTitleP2}> 
-                        Gilberto Augusto A. Moreira
-                    </h1>
-                    <h1 className={styles.textTitleP1}>
-                        Fenômenos de Transporte 
-                    </h1>
-                    <h1 className={styles.textTitleP1}>
-                        Dinâmica dos Fluidos Computacional
-                    </h1>
-                    
-
-                </div>
-
-                <div className={styles.divImages}>
-                    <div className={styles.imagesRight}>
-                        <img
-                            className={styles.imageLabSimer}
-                            src="/prof_gilberto.png"
-                        />
-                    </div>
-                </div>
-
-                
-            </div>
-
-            <div className={styles.divStructureText} >            
-                <h1 className={styles.textDescribe} >
-                    Possui graduação em Engenharia Mecânica pelo Centro Federal de Educação Tecnológica de Minas Gerais (CEFET-MG), 
-                    mestrado e doutorado em Engenharia Mecânica pela Universidade Federal de Minas Gerais. Atualmente Professor Adjunto 
-                    do Departamento de Engenharia de Energias Renováveis na Universidade Federal da Paraíba (UFPB).  Tem experiência na 
-                    área de Engenharia Mecânica, atuando principalmente nos seguintes temas: Métodos Numéricos, Fornos Industriais, 
-                    Turbulência, Camada Limite Atmosférica, mecânica dos Fluidos Computacional e Técnicas de Medição Não-Invasivas.
-
-                    <br /><br />
-                </h1>
-                
-            </div>
-
-
-            {/* -------------------------------------------------------------------------------------------------------------------- */}
-
-
-
-
-
-            <div className={styles.divStructure} >
-
-                <div className={styles.divImages}>
-                    <div className={styles.images}>
-                        <img
-                            className={styles.imageLabSimer}
-                            src="/prof_taynara.jpg"
-                        />
-                    </div>
-                </div>
-
-
-                <div className={styles.divText} >
-                    <h1 className={styles.textTitleP2}> 
-                        Taynara Geysa Silva do Lago
-                    </h1>
-                    <h1 className={styles.textTitleP1Left}>
-                        Fenômenos de Transporte
-                    </h1>
-                    <h1 className={styles.textTitleP1Left}>
-                        Energias Renováveis
-                    </h1>
-                    
-                </div>
-
-                
-            </div>
-
-            <div className={styles.divStructureText} >            
-                <h1 className={styles.textDescribe} >
-                    Engenheira Mecânica pela Universidade Estadual do Maranhão (2009-2014), possui Mestrado em Engenharia Mecânica
-                     na área de Térmica e Fluidos, pela Universidade Estadual de Campinas (2014-2016) e Doutorado em Engenharia 
-                     Mecânica na Universidade Estadual de Campinas (2016-2020).  
-                     Atualmente é Professora Adjunta do Departamento de Engenharia de Energia Renováveis – DEER, do 
-                     Centro de Energias Alternativas e Renováveis - CEAR, da Universidade Federal da Paraíba – UFPB. Tem experiência
-                      em Engenharia de Confiabilidade e Manutenção Industrial. Desenvolve pesquisa em Engenharia Mecânica, nos seguintes
-                       temas: Transferência de calor, Termodinâmica, Refrigeração, Armazenadores Térmicos, Energia Solar. 
-
-                    <br /><br />
-                </h1>
-                
-            </div>
-
-            {/* -------------------------------------------------------------------------------------------------------------------- */}
-
-            <div className={styles.divStructure} >
-
-                
-
-
-                <div className={styles.divText} >
-                    <h1 className={styles.textTitleP2}> 
-                        Márcio Rodrigo de Araújo Souza
-                    </h1>
-                    <h1 className={styles.textTitleP1}>
-                        Energia Eólica  
-                    </h1>
-                    <h1 className={styles.textTitleP1}>
-                        Dinâmica dos Fluidos Computacional
-                    </h1>
-                    
-
-                </div>
-
-                <div className={styles.divImages}>
-                    <div className={styles.imagesRight}>
-                        <img
-                            className={styles.imageLabSimer}
-                            src="/prof_marcio.png"
-                        />
-                    </div>
-                </div>
-
-                
-            </div>
-
-            <div className={styles.divStructureText} >            
-                <h1 className={styles.textDescribe} >
-                    Possui graduação em Engenharia Mecânica pela Universidade Federal do Rio Grande do Norte (2003), mestrado em 
-                    Engenharia Mecânica pela Universidade Federal do Rio Grande do Norte (2005) e doutorado em Pós-Graduação em 
-                    Engenharia Civil pela Universidade Federal de Pernambuco (2015). Atualmente é professor adjunto I da Universidade
-                    Federal da Paraíba e membro permanente do Programa de Pós-Graduação em Energias Renováveis. Atuando principalmente 
-                    nos seguintes temas: Simulação de Escoamento Bifásico em Reservatórios de Petróleo; Método de Volumes Finitos e 
-                    Simulação Numérica Voltada à Energia Eólica.
-
-                    <br /><br />
-                </h1>
-                
-            </div>
-
-
-            {/* -------------------------------------------------------------------------------------------------------------------- */}
-
+            <h1 className={styles.textDescribe} >
             
-            
+                Em face do caráter multidisciplinar dos processos associados à geração, transmissão, armazenamento e uso de
+                 energia, os pesquisadores integrantes do Laboratório de Simulação de Multifísica em Energia, LABSIMER, possuem
+                  formação nas áreas de mecânica dos fluidos, fenômentos de transporte, engenharia térmica, análise estrutural e 
+                  outras áreas afins. O laboratório conta, atualmente, com os seguintes pesquisadores/colaboradores/discentes
+
+            </h1>
+
+            <table className={styles.table}>
+                <thead>
+                    <tr>
+                        <th>NOME</th>
+                        <th>ESPECIALIDADE</th>
+                        <th>INSTITUIÇÃO</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {colaboradores.map((colaborador, index) => (
+                        <tr key={index}>
+                            <td>{colaborador.nome}</td>
+                            <td>{colaborador.especialidade}</td>
+                            <td>{colaborador.instituicao}</td>
+                        </tr>
+                    ))}
+                </tbody>
+            </table>
         </div>
-    )
+    );
 }

@@ -24,7 +24,7 @@ export default function SobreNos() {
                 <div className={styles.images}>
                     <img
                         className={styles.imageLabSimer}
-                        src="/infraestrutura.jpg"
+                        src="/dinamica.jpg"
                     />
                 </div>
             </div>

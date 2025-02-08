@@ -58,5 +58,8 @@
     border: 1px solid lightblue;
     border-radius: 30px;
     height: auto;
-    width: auto;
+    width: 1000px;
+    display: flex;
+    place-self: center;
+
 }

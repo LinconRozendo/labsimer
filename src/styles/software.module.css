@@ -18,6 +18,7 @@
   
 /* components */
 
+
 .divStructure {
     max-width: 1200px;
     height: auto;
@@ -43,29 +44,9 @@
     font-weight: 100;
 }
 
-.divImages {
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
-
-
-.images {
-    /*margin: 25px 0 50px 25px;*/
-}
-
-.imageLabSimer {
-    border: 1px solid lightblue;
-    border-radius: 30px;
-    height: auto;
-    width: 800px;
-    display: block;
-    justify-self: center;
-}
-
 
 .container {
-    font-family: 'Roboto', 'Arial', sans-serif;
+    font-family:'Roboto', 'Arial', sans-serif;
     background-color: #f0f8ff; /* Fundo azul claro */
     color: #333; /* Cor do texto principal */
     margin: 0;
@@ -79,39 +60,35 @@
     margin-bottom: 30px;
 }
 
-.table {
-    width: 100%;
-    border-collapse: collapse;
-    background-color: white; /* Fundo branco para a tabela */
+.list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.listItem {
+    background-color: white; /* Fundo branco para cada item */
     border-radius: 8px; /* Bordas arredondadas */
+    margin-bottom: 15px;
+    padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    overflow: hidden; /* Para garantir que as bordas arredondadas funcionem */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Efeito de transição */
 }
 
-.table th,
-.table td {
-    padding: 12px 15px;
-    text-align: left;
+.listItem:hover {
+    transform: translateY(-5px); /* Efeito de levantar ao passar o mouse */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais intensa */
 }
 
-.table th {
-    background-color: #2a5298; /* Azul médio para o cabeçalho */
-    color: white; /* Texto branco no cabeçalho */
-    font-weight: bold;
+.itemTitle {
+    color: #2a5298; /* Azul médio */
+    margin-bottom: 10px;
 }
 
-.table tbody tr {
-    transition: background-color 0.2s ease; /* Efeito de transição */
+.itemText {
+    margin: 5px 0;
+    color: #555; /* Cor do texto secundário */
 }
 
-.table tbody tr:hover {
-    background-color: #e0f7ff; /* Azul claro ao passar o mouse */
-}
-
-.table tbody td {
-    border-bottom: 1px solid #ddd; /* Linhas divisórias suaves */
-}
-
-.table tbody tr:last-child td {
-    border-bottom: none; /* Remove a borda da última linha */
+.itemStrong {
+    color: #1e3c72; /* Azul escuro para destacar */
 }
