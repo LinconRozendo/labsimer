@@ -11,6 +11,11 @@ const NavBar = () => {
 
   const [searchOpen, setSearchOpen] = useState(false);
 
+  const falseClick = (event) => {
+    event.preventDefault(); // Previne o comportamento padrão do link
+
+  };
+
   const handleMouseEnter = (item) => {
     setDropdownOpen((prev) => ({ ...prev, [item]: true }));
   };
@@ -30,7 +35,7 @@ const NavBar = () => {
           onMouseEnter={() => handleMouseEnter('Projetos')}
           onMouseLeave={() => handleMouseLeave('Projetos')}
         >
-          <Link className={styles.linkItem} href="/projetos">Projetos</Link>
+          <Link className={styles.linkItem} href="/" onClick={falseClick}>Projetos</Link>
           <ul className={`${styles.dropdown} ${dropdownOpen.Projetos ? styles.open : ''}`}>
             <li className={styles.navSubMenu}><Link href="/projetos/pesquisa">Pesquisa</Link></li>
             <li className={styles.navSubMenu}><Link href="/projetos/extensao">Extensão</Link></li>
@@ -43,7 +48,7 @@ const NavBar = () => {
           onMouseEnter={() => handleMouseEnter('LinhasPesquisa')}
           onMouseLeave={() => handleMouseLeave('LinhasPesquisa')}
         >
-          <Link className={styles.linkItem} href="/linhas-pesquisa">Linhas de Pesquisa</Link>
+          <Link className={styles.linkItem} href="/" onClick={falseClick}>Linhas de Pesquisa</Link>
           <ul className={`${styles.dropdown} ${dropdownOpen.LinhasPesquisa ? styles.open : ''}`}>
             <li className={styles.navSubMenu}><Link href="/linhasPesquisa/adsorcao">Adsorção, Meios Porosos e Refrigeração</Link></li>
             <li className={styles.navSubMenu}><Link href="/linhasPesquisa/dinamica">Dinâmica dos Fluidos Computacional</Link></li>
@@ -58,7 +63,7 @@ const NavBar = () => {
           onMouseEnter={() => handleMouseEnter('Equipe')}
           onMouseLeave={() => handleMouseLeave('Equipe')}
         >
-          <Link className={styles.linkItem} href="/equipe">Equipe</Link>
+          <Link className={styles.linkItem} href="/" onClick={falseClick}>Equipe</Link>
           <ul className={`${styles.dropdown} ${dropdownOpen.Equipe ? styles.open : ''}`}>
             <li className={styles.navSubMenu}><Link href="/equipe/lideranca">Time de Liderança</Link></li>
             <li className={styles.navSubMenu}><Link href="/equipe/colaboradores">Colaboradores/Pesquisadores</Link></li>

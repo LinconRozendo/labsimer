@@ -16,8 +16,9 @@
 
 /* components */
 .divInitial {
-    background-color: #f0f8ff; /* Fundo azul claro */
-    padding: 20px;
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
     font-family: 'Roboto';
 }
 
@@ -26,7 +27,7 @@
     height: auto;
     margin: 20px auto;
     display: flex;
-    background-color: white; /* Fundo branco para cada bloco de professor */
+    background-color: #f0f8ff;
     border-radius: 8px; /* Bordas arredondadas */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
     padding: 20px;
@@ -56,13 +57,16 @@
 }
 
 .textTitle {
-    color: #1e3c72; /* Azul escuro */
+    color: royalblue; /* Azul escuro */
     margin: 25px 0 0 50px;
     font-size: 3rem;
     line-height: 110%;
     font-weight: 700;
     font-family: system-ui;
     text-align: center;
+    border-bottom: 5px solid #4a90e2; /* Linha azul abaixo do título */
+    display: inline-block;
+    padding-bottom: 10px;
 }
 
 .textTitleP1 {
@@ -83,11 +87,12 @@
 .textTitleP2 {
     color: #1e3c72; /* Azul escuro */
     margin: 50px 0 0 50px;
-    font-size: 3rem;
+    font-size: 2.6rem;
     line-height: 110%;
     font-weight: 700;
     font-family: system-ui;
     border-bottom: 5px solid #4a90e2; /* Linha azul abaixo do nome */
+    display: block;
     width: 750px;
     padding-bottom: 10px;
     text-align: center;

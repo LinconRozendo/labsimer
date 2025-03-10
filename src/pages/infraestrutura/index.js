@@ -114,7 +114,6 @@ export default function Estrutura() {
                         <tr>
                             <th>ITEM</th>
                             <th>DESCRIÇÃO</th>
-                            <th>QUANT.</th>
                             <th>FUNÇÃO</th>
                         </tr>
                     </thead>
@@ -123,7 +122,6 @@ export default function Estrutura() {
                             <tr key={index}>
                                 <td>{row.item}</td>
                                 <td>{row.descricao}</td>
-                                <td>{row.quantidade}</td>
                                 <td>{row.funcao}</td>
                             </tr>
                         ))}

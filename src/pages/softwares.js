@@ -119,9 +119,6 @@ export default function Software() {
                         <li key={index} className={styles.listItem}>
                             <h2 className={styles.itemTitle}>{software.nome}</h2>
                             <p className={styles.itemText}>
-                                <strong className={styles.itemStrong}>Quantidade:</strong> {software.quantidade}
-                            </p>
-                            <p className={styles.itemText}>
                                 <strong className={styles.itemStrong}>Função:</strong> {Array.isArray(software.funcao) ? software.funcao.join(", ") : software.funcao}
                             </p>
                             <p className={styles.itemText}>

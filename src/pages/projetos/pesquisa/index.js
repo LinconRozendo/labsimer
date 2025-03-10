@@ -33,10 +33,6 @@ export default function Pesquisa() {
                     <strong>5)</strong> Simulação Numérica da Influência da Dinâmica dos Ventos Sobre a Aceleração do Processo de Carbonatação em Torres
                     Tubulares de Concreto de Aerogeradores – PQ/Universal/CNPq (Prof. Márcio Rodrigo A. Souza)
                 </li>
-                <li>
-                    <strong>6)</strong> Aplicação da Transformação Digital para Otimização da Operação de Unidades Geradoras a Ciclo Combinado Instaladas em
-                    Área Isolada – PD&I (Prof. Ademar V. da Silva Neto)
-                </li>
             </ul>
 
             <p className={styles.textDescribe}>

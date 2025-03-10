@@ -27,13 +27,16 @@
 
 
 .textTitle {
-    color: royalblue;
+    color: royalblue; /* #1e3c72Azul escuro */
     margin: 25px 0 0 50px;
     font-size: 3rem;
     line-height: 110%;
     font-weight: 700;
     font-family: system-ui;
-    JUSTIFY-SELF: CENTER;
+    text-align: center;
+    border-bottom: 5px solid #4a90e2; /* Linha azul abaixo do título */
+    display: inline-block;
+    padding-bottom: 10px;
 }
 
 .textDescribe {

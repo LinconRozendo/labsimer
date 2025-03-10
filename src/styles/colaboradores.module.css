@@ -20,10 +20,6 @@
     height: auto;
     margin: 0 auto;
     font-family: 'Roboto';
-    background-color: #f0f8ff; /* Fundo azul claro */
-    padding: 20px;
-    border-radius: 8px; /* Bordas arredondadas */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
 .textDescribe {
@@ -34,7 +30,7 @@
 }
 
 .textTitle {
-    color: #1e3c72; /* Azul escuro */
+    color: royalblue; /* #1e3c72Azul escuro */
     margin: 25px 0 0 50px;
     font-size: 3rem;
     line-height: 110%;
