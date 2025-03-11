@@ -1,0 +1,112 @@
+/* fonts */
+@font-face {
+    font-family: 'open_sansextrabold', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    src: local('Lexend Deca Regular'), url('/fonts/LexendDecaRegular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    src: url(https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* components */
+.divInitial {
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    font-family: 'Roboto';
+    padding: 20px;
+}
+
+.divStructure {
+    max-width: 1200px;
+    height: auto;
+    margin: 20px auto;
+    display: flex;
+    background-color: #f0f8ff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.divStructure:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.textTitle {
+    color: royalblue;
+    margin: 25px 0 0 50px;
+    font-size: 3rem;
+    line-height: 110%;
+    font-weight: 700;
+    font-family: system-ui;
+    text-align: center;
+    border-bottom: 5px solid #4a90e2;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.textTitleP2 {
+    color: #1e3c72;
+    margin: 20px 0;
+    font-size: 2rem;
+    line-height: 110%;
+    font-weight: 700;
+    font-family: system-ui;
+    border-bottom: 3px solid #4a90e2;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.listaPublicacoes {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.itemPublicacao {
+    color: #2a5298;
+    margin: 10px 0;
+    font-size: 1.2rem;
+    font-style: italic;
+    padding: 10px;
+    background-color: #e6f0ff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.itemPublicacao:hover {
+    background-color: #cce0ff;
+}
+
+/* Estilo para o link do DOI */
+.linkDOI {
+    display: inline-flex;
+    align-items: center;
+    color: #1e3c72;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #e6f0ff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.linkDOI:hover {
+    background-color: #cce0ff;
+    color: #4a90e2;
+}
+
+/* Ícone de arquivo */
+.linkDOI i {
+    margin-right: 8px;
+    font-size: 1.2rem;
+}

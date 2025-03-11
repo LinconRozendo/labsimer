@@ -25,7 +25,7 @@ export default function Lideranca() {
                 <div className={styles.divText} >
                     <a
                         className={styles.textTitleP2}
-                        href="http://lattes.cnpq.br/6252231670995980"
+                        href="http://lattes.cnpq.br/2699729486137957"
                         target="_blank"
                     >
                         Prof. João Alves de Lima
@@ -63,7 +63,7 @@ export default function Lideranca() {
             </div>
 
             <div className={styles.divStructureButton}>
-                <a className={styles.buttonLattes} href=" http://lattes.cnpq.br/2699729486137957" target="_blank" class="button">
+                <a className={styles.buttonLattes} href="http://lattes.cnpq.br/2699729486137957" target="_blank" class="button">
                     <span>🔗</span>
                     Acessar Lattes
                 </a>
@@ -89,7 +89,7 @@ export default function Lideranca() {
                 <div className={styles.divText} >
                     <a
                         className={styles.textTitleP2}
-                        href="http://lattes.cnpq.br/6252231670995980"
+                        href="http://lattes.cnpq.br/4921331161781258"
                         target="_blank"
                     >
                        Prof. Gilberto Augusto A. Moreira
@@ -149,7 +149,7 @@ export default function Lideranca() {
                 <div className={styles.divText} >
                     <a
                         className={styles.textTitleP2}
-                        href="http://lattes.cnpq.br/6252231670995980"
+                        href="http://lattes.cnpq.br/8719507576491647"
                         target="_blank"
                     >
                         Profa. Taynara Geysa Silva do Lago
